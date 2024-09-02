@@ -8,6 +8,9 @@ Why is it technically possible to represent a playing card using six Boolean val
 
 Re-implement class `Card` as a single enumerated type. For the purpose of the Solitaire application, does this look like a superior or inferior solution to [this version](../chapter-code-2ndEdition/e2/chapter2/Card.java)? Why? Try writing down your answer in specific terms using terminology seen in Chapter 2.
 
+-> list of each name of the 52 cards. 
+-> help avoid primitive obsession
+-> inferior: corner cases, null pointers
 ## Exercise 3
 
 Modify the [`Suit`](../chapter-code-2ndEdition/e2/chapter2/Suit.java) enumerated type to include a method `color()` that returns the color of the suit. The return type should be a new enumerated type `Color`.
